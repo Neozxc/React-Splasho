@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+* {
+  margin: 0; padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.theTitle {
+  display: grid;
+  place-items: center;
+
+  padding-top: 50px; padding-bottom: 30px;
+}
+
+.theButton {
+  display: grid;
+  place-items: center;
+}
+
+.theButton button {
+  padding: 20px;
+  background: none;
+  border: 1px solid black;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: rgba(0, 162, 255, 0.198);
+}
+
+p {
+  display: grid;
+  place-items: center;
+
+  font-size: 25px;
+  padding-top: 30px;
+}
+
+.theImage img {
+  display: block;
+  margin: auto;
+  width: 600px;
+  height: 500px;
+  padding-top: 30px;
+  border-radius: 10rem;
+  
+}

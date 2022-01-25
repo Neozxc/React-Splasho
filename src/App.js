@@ -26,17 +26,16 @@ const App = () => {
     setImage(data);
   };
 
-
-
-
-
-
   return (
     <div>
       <h1 className='theTitle'>Funny OR Cute Dog Images.</h1>
-      <button onClick={handleFetch}>GIVE ME IMAGE</button>
+      <div className="theButton">
+        <button onClick={handleFetch}>GIVE ME IMAGE</button>
+      </div>
       <p>Bytes for this Image: {image.fileSizeBytes}</p>
-      <img src={image.url} alt="" />
+      <div className="theImage">
+        <img src={image.url} alt="" />
+      </div>
     </div>
   );
 }
